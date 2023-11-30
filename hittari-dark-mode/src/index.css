@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Buttons */
+    .btn-primary {
+        @apply btn bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 active:from-amber-600 active:to-amber-700 ring-amber-600;
+    }
+    .btn-secondary {
+        @apply btn bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-400 hover:to-purple-500 active:from-purple-600 active:to-purple-700 ring-purple-600;
+    }
+    .btn-danger {
+        @apply btn bg-gradient-to-r from-red-500 to-red-600 hover:from-red-400 hover:to-red-500 active:from-red-600 active:to-red-700 ring-red-600;
+    }
+    .btn-standard {
+        @apply btn bg-gray-100 hover:bg-gray-100 active:bg-gray-300 ring-gray-600 text-gray-700;
+    }
+    .btn {
+        @apply rounded-full p-2 text-white focus:outline-none focus:ring-2 ring-offset-2;
+    }
+    /* Classes specifically used for the Ping button */
+    .btn-green {
+        @apply bg-gradient-to-r from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 active:from-green-600 active:to-green-700 rounded-full p-2 text-white focus:outline-none  focus:ring-2 ring-offset-2 ring-green-600;
+    }
+    .btn-blue {
+        @apply bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-300 hover:to-blue-400 active:from-blue-500 active:to-blue-600 rounded-full p-2 text-white focus:outline-none  focus:ring-2 ring-offset-2 ring-blue-500;
+    }
+    .btn-red {
+        @apply bg-gradient-to-r from-red-500 to-red-600 hover:from-red-400 hover:to-red-500 active:from-red-600 active:to-red-700 rounded-full p-2 text-white focus:outline-none  focus:ring-2 ring-offset-2 ring-red-600;
+    }
+    .btn-yellow {
+        @apply bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 active:from-yellow-600 active:to-yellow-700 rounded-full p-2 text-white focus:outline-none  focus:ring-2 ring-offset-2 ring-yellow-600;
+    }
+    .btn-purple {
+        @apply bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-400 hover:to-purple-500 active:from-purple-600 active:to-purple-700 rounded-full p-2 text-white focus:outline-none  focus:ring-2 ring-offset-2 ring-purple-600;
+    }
+    .btn-gray {
+        @apply bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-700 hover:to-gray-800 active:from-gray-700 active:to-gray-800 rounded-full p-2 text-white focus:outline-none  focus:ring-2 ring-offset-2 ring-gray-800;
+    }
+
+    /* Multiselect */
+    .multiselect-tag {
+        @apply bg-purple-500;
+    } 
+}

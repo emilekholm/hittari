@@ -1,0 +1,35 @@
+{
+  "name": "hittari",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.6.4",
+    "@tweenjs/tween.js": "^18.6.4",
+    "@vueform/multiselect": "^2.5.6",
+    "leaflet": "^1.9.2",
+    "leaflet-heatmap": "^1.0.0",
+    "leaflet.heat": "^0.2.0",
+    "vue": "^3.2.36",
+    "vue-multiselect": "^2.1.6",
+    "vue-router": "^4.0.15",
+    "vue-timepicker": "^0.0.3",
+    "vueform": "^2.0.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.1.2",
+    "vite": "^2.9.9"
+  }
+}
